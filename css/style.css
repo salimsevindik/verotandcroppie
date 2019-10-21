@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0px;
+	padding:0px;
+	outline:none;
+	 box-sizing:border-box;
+	}
+body,html {
+	background-color:#EBEBEB;
+	font-family:calibri;
+	}	
+.forms {
+	margin:0 auto;
+	width:350px;
+	background-color:#FFF;
+	padding:30px;
+	margin-top:2%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	}	
+h1 {
+	font-weight:600;
+	font-size:17px;
+	margin-bottom:20px;}	
+.uyari {
+	display:none;
+	margin-bottom:20px;
+	text-align:center;
+	}	
+.upload-status {
+	margin-bottom:15px;
+	color:#090;
+	}	
+input[type=text] {
+	padding:10px;
+	border:1px solid #ddd;
+	width:100%;	
+	}	
+label {
+	background-color:#EBEBEB;
+	display:block;
+	cursor:pointer;
+	padding-top:10px;
+    padding-bottom:10px;
+	text-align:center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;	
+	}
+label > input {
+	display:none;
+	}	
+input[type=button] {
+	background-color:#06C;
+	color:#FFF;
+	width:100%;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+	border:0;
+	cursor:pointer;
+	}
+.fotom {
+	display:none;
+	}	
+ul.form-row > li{
+	list-style-type:none;
+	width:100%;
+	margin-bottom:15px;
+	}	
+	
+	
+	

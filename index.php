@@ -61,7 +61,7 @@ function Kontrol(){
 <body>
     <div class="forms">
     <h1>FOTOĞRAF YÜKLEME FORMU</h1>
-    <?php echo @$_GET["m"]=="success" ? '<div class="upload-status">Fotoğrafınız yüklenmiştir.</div>':'';?>
+    <?php echo @$_GET["m"]=="success" ? '<div class="durum">Fotoğrafınız yüklenmiştir.</div>':'';?>
     <div class="uyari"></div>
     <form enctype="multipart/form-data" method="post" action="yukle.php" name="yukleme-formu">
     <input type="hidden" name="fotobilgileri">
